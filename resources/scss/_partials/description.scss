@@ -1,0 +1,23 @@
+@import "variables.scss";
+.description {
+    background-color: $secondary_color;
+    padding: 3.125rem;
+    color: $fourth_color;
+    .container.blue {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            li {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                span{
+                margin-left: 10px;
+                }
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}

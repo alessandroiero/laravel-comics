@@ -1,6 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
+@import "_partials/header.scss";
+@import "_partials/description.scss";
+@import "_partials/jumbotron.scss";
+@import "_partials/cards.scss";
+@import "_partials/footer.scss";
+@import "_partials/footerlist.scss";
+@import "_partials/variables.scss";
+@import "_partials/reset.scss";
 
+ul{
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
 
 body {
-    background-color: yellow;
+    background-color: $primary_color;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
